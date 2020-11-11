@@ -73,9 +73,11 @@ footer p{
   font-size: 0.8em;
 }
 
-form {
+form, input, textarea, label,  {
   width: 100%
 }
+
+
 
 .flexbox-menu {
   display: flex;
