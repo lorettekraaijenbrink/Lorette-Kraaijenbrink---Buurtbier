@@ -73,7 +73,7 @@ footer p{
   font-size: 0.8em;
 }
 
-form, label  {
+form, textarea, label {
   width: 100%
 }
 
