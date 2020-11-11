@@ -66,18 +66,18 @@ footer {
   grid-area: f;
 }
 
-footer p{
+footer p {
   color: var(--text-color-accent-1);
-  margin:2px;
+  margin: 2px;
   line-height: 1.4em;
   font-size: 0.8em;
 }
 
-form, textarea, label {
+form,
+textarea,
+label {
   width: 100%
 }
-
-
 
 .flexbox-menu {
   display: flex;
@@ -139,7 +139,7 @@ form, textarea, label {
   font-weight: bold;
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
   .container {
     grid-template-rows: auto auto repeat(4, auto) 50px;
     grid-template-columns: 30px 1fr 250px 30px;
@@ -163,6 +163,7 @@ form, textarea, label {
     width: 70%
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     grid-template-rows: auto auto repeat(4, auto) 50px;
@@ -185,7 +186,8 @@ form, textarea, label {
   header {
     text-align: left;
   }
-  .flexbox-menu{
-    flex-direction: column; 
-   }
+
+  .flexbox-menu {
+    flex-direction: column;
+  }
 }
